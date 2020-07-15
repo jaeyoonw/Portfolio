@@ -1,0 +1,30 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: relative;
+}
+
+.header {
+  background-color: #000;
+  height: 120px;
+}
+.header__title {
+  width: 1080px;
+  margin: auto;
+  padding: 0 40px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 120px;
+  color: #fff;
+  height: 100%;
+}
+
+.footer {
+  background-color: #000;
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  bottom: 0;
+}
