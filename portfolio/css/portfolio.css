@@ -4,6 +4,7 @@ html {
   padding: 0;
   height: 105%;
   position: relative;
+  font-family: "나눔 고딕", NanumGothic, "돋움", Dotum, sans-serif;
 }
 
 .header {
@@ -63,20 +64,28 @@ main {
   margin-bottom: 40px;
   padding: 0 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.element_button {
+.element__button {
+  background-color: #fff;
   border: 1px solid #d1d1d1;
-  width: 30%;
   height: 33px;
+  width: 33%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.element__button:hover {
+  border-color: #454545;
+  font-weight: bold;
+}
+
 .main__title__form {
   margin-left: 14px;
   margin-right: 14px;
+}
+.main__title__form:visited {
 }
 
 span {
