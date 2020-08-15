@@ -11,14 +11,18 @@ html {
   background-color: #000;
   height: 120px;
 }
+
 .header__title {
   width: 1000px;
   margin: auto;
   padding: 0 40px;
-  font-size: 40px;
   font-weight: bold;
   line-height: 120px;
   color: #fff;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 .footer {
