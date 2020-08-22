@@ -1,16 +1,16 @@
-body,
-html {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
-
-  position: relative;
   font-family: "나눔 고딕", NanumGothic, "돋움", Dotum, sans-serif;
 }
+
 .header {
   background-color: #000;
   height: 120px;
   width: 100%;
+  top: 0;
 }
 
 .header__title {
